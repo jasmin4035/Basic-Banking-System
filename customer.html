@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Accounts | Basic Banking System</title>
+    <title>Fund Transfer | Basic Banking System</title>
     <link rel="stylesheet"
         href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
     <link rel="stylesheet" href="customer.css">
@@ -29,7 +29,7 @@
                 </li>
                 <li class="nav-item  active">
                     <a class="nav-link" href="customer.html"
-                        style="color: rgb(37, 36, 36)!important; background-color: rgb(180, 178, 178);">Send Money</a>
+                        style="color: rgb(37, 36, 36)!important; background-color: rgb(180, 178, 178);">Fund Transfer</a>
                 </li>
             </ul>
         </div>
@@ -37,11 +37,11 @@
     <!-- navbar ends here  -->
 
     <div class="my-info text-center">
-        <h2>Name: Jasmin </h2>
-        <h4>Net Bank Balance: Rs <span id="myAccountBalance">500000</span></h4>
+        <h2>Name: Jasmin Shaik </h2>
+        <h4>Net Bank Balance: Rs <span id="myAccountBalance">1000000</span></h4>
 
-        <button class="btn btn-info" data-toggle="modal" data-target="#sendMoney">Send Money</button>
-        <a class="btn btn-info" href="" data-toggle="modal" data-target="#transactionHistory">See All Transactions</a>
+        <button class="btn btn-info" data-toggle="modal" data-target="#sendMoney">Transfer Money</button>
+        <a class="btn btn-info" href="" data-toggle="modal" data-target="#transactionHistory">View All Transactions</a>
     </div>
 
     <!-- Modal send money -->
@@ -115,91 +115,91 @@
             <table class="table table-hover table-bordered">
                 <thead>
                     <tr class="table-danger">
-                        <th scope="col">Sl. No.</th>
+                        <th scope="col">SI. No.</th>
                         <th scope="col">Name</th>
                         <th scope="col">E-mail</th>
-                        <th scope="col">Bank Balance(in $)</th>
+                        <th scope="col">Bank Balance(in Rs)</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="table-light">
                         <td scope="row">1</td>
-                        <td>Den</td>
-                        <td>Den@email.com</td>
+                        <td>Raseeka</td>
+                        <td>Raseeka@email.com</td>
                         <td>
-                            <p id="GeeshwanthBankBalance">25500</p>
+                            <p id="RaseekaBankBalance">20000</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">2</td>
-                        <td>Sera</td>
-                        <td>Sera@email.com</td>
+                        <td>Pujitha</td>
+                        <td>Pujitha@email.com</td>
                         <td>
-                            <p id="NamithaBankBalance">16000</p>
+                            <p id="PujithaBankBalance">30000</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td scope="row">3</td>
-                        <td>Kate</td>
-                        <td>Kate@email.com</td>
+                        <td>Padmaja</td>
+                        <td>Padmaja@email.com</td>
                         <td>
-                            <p id="SairupaBankBalance">32000</p>
+                            <p id="PadmajaBankBalance">40000</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">4</td>
-                        <td>Asura</td>
-                        <td>Asura@email.com</td>
+                        <td>Jasmin</td>
+                        <td>Jasmin@email.com</td>
                         <td>
-                            <p id="AswiniBankBalance">41000</p>
+                            <p id="JasminBankBalance">45000</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td scope="row">5</td>
-                        <td>Benar</td>
-                        <td>Benar@email.com</td>
+                        <td>Bhanu</td>
+                        <td>Bhanu@email.com</td>
                         <td>
-                            <p id="AnilBankBalance">63000</p>
+                            <p id="BhanuBankBalance">25000</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">6</td>
-                        <td>Vamshi</td>
-                        <td>Vamshi@email.com</td>
+                        <td>Akhila</td>
+                        <td>Akhila@email.com</td>
                         <td>
-                            <p id="VamshiBankBalance">55003</p>
+                            <p id="AkhilaBankBalance">50000</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td>7</td>
-                        <td>Justin</td>
-                        <td>Justin@email.com</td>
+                        <td>Sahithi</td>
+                        <td>Sahithi@email.com</td>
                         <td>
-                            <p id="JagadeeshBankBalance">25600</p>
+                            <p id="SahithiBankBalance">28000</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">8</td>
-                        <td>Kate</td>
-                        <td>Kate@email.com</td>
+                        <td>Bhavani</td>
+                        <td>Bhavani@email.com</td>
                         <td>
-                            <p id="KarthikBankBalance">35603</p>
+                            <p id="BhavaniBankBalance">30000</p>
                         </td>
                     </tr>
                     <tr class="table-light">
                         <td scope="row">9</td>
-                        <td>Vernon</td>
-                        <td>Vernon@email.com</td>
+                        <td>Lakshmi</td>
+                        <td>Lakshmi@email.com</td>
                         <td>
-                            <p id="VenkateshBankBalance">18500</p>
+                            <p id="SriLakshmiBankBalance">10000</p>
                         </td>
                     </tr>
                     <tr class="table-info">
                         <td scope="row">10</td>
-                        <td>Nithin</td>
-                        <td>Nithin@email.com</td>
+                        <td>Amrutha</td>
+                        <td>Amrutha@email.com</td>
                         <td>
-                            <p id="NithinBankBalance">19350</p>
+                            <p id="AmruthaBankBalance">8000</p>
                         </td>
                     </tr>
                 </tbody>

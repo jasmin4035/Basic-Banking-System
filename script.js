@@ -22,7 +22,7 @@ function sendMoney(){
 
       // transaction history 
       let createPTag = document.createElement("li");
-      var textNode = document.createTextNode(`$${enterAmount} is sent to recepient with Email-id ${enterName}@email.com on ${Date()}.`);
+      var textNode = document.createTextNode(`Successful Transaction of Rs${enterAmount} is sent to recepient with Email-id ${enterName}@email.com on ${Date()}.`);
       createPTag.appendChild(textNode);
       var element = document.getElementById("transaction-history-body");
       element.insertBefore(createPTag, element.firstChild);
